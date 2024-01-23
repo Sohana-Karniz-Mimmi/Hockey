@@ -142,7 +142,8 @@
     <!-- Main section Starts Here -->
     <main class="container mx-auto lg:px-24 px-8">
       <!--Professional Hockeys Club Section Starts Here -->
-      <section class="lg:my-24">
+      <section class="lg:my-24
+      ">
         <div
           class=" lg:py-8 text-center border-t border-b border-dashed border-[#13131833] p-4 lg:mb-16"
         >
@@ -161,7 +162,7 @@
           <!-- card 1 -->
           <div class=" card mt-6 mb-4  text-xl mt-6 mb-4  text-xl ">
             <div class=" text-[#FF4240] mx-auto radial-progress" style="--value: 87" role="progressbar">
-              87%
+             <span class="text-black"> 87%</span>
             </div>
             <div class=" items-center text-center">
               <h2 class="mt-6 mb-4  text-xl font-semibold ">Prayer Facility</h2>
@@ -174,7 +175,7 @@
           <!-- card 2 -->
           <div class=" card text-xl mt-6 mb-4 ">
             <div class=" text-[#49D293] mx-auto radial-progress" style="--value: 95" role="progressbar">
-              95%
+              <span class="text-black"> 95%</span>
             </div>
             <div class=" items-center text-center">
               <h2 class="mt-6 mb-4  text-xl font-semibold ">Experienced Coach</h2>
@@ -187,7 +188,7 @@
           <!-- card 3 -->
           <div class=" card mt-6 mb-4  text-xl mt-6 mb-4  text-xl ">
             <div class=" text-[#FFB546] mx-auto radial-progress" style="--value: 90" role="progressbar">
-              90%
+              <span class="text-black"> 90%</span>
             </div>
             <div class="items-center text-center">
               <h2 class=" mt-6 mb-4  text-xl font-semibold ">Senior Player</h2>
@@ -200,7 +201,7 @@
           <!-- card 4 -->
           <div class=" card mt-6 mb-4  text-xl mt-6 mb-4  text-xl ">
             <div class=" text-[#4C8DF1] mx-auto radial-progress" style="--value: 80" role="progressbar">
-              80%
+              <span class="text-black"> 80%</span>
             </div>
             <div class=" items-center text-center">
               <h2 class=" mt-6 mb-4  text-xl font-semibold ">Training Ground</h2>
@@ -216,11 +217,11 @@
       <!--Professional Hockeys Club Section Ends Here -->
 
       <!-- Program Sections Starts Here -->
-      <section class="lg:my-24">
+      <section class="lg:my-24 mt-7">
 
         <!-- Program Heading  -->
         <div
-          class=" lg:py-8 text-center border-t border-b border-dashed border-[#13131833] p-4 lg:mb-16"
+          class=" lg:py-8 py-6 text-center border-t border-b border-dashed border-[#13131833] lg:mb-16 mb-6"
         >
           <h2 class="text-4xl mb-6 font-extrabold">
             Program Sections
@@ -234,15 +235,49 @@
 
         <!-- Program images  -->
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 ">
-          <div class="col-span-1">
-            <img src="Images/2.png" alt="">
+
+          <!-- image1 -->
+          <div class="relative lg:h-auto h-60">
+            <img class="h-full w-full object-cover" src="Images/2.png" alt="">
+            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-black/30 w-full h-full flex items-center pt-6 pl-6 pr-8 pb-8 lg:px-10 lg:pt-11 rounded-2xl">
+              <div>
+                <h3 class="text-white font-extrabold lg:text-2xl text-xl">Junior Program</h3>
+              <p class="text-white text-sm lg:text-base py-3 lg:py-4">
+                Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                <button class="btn border-none text-white font-bold text-lg lg:text-xl bg-[#FF4240] h-10">Register Now!</button>
+              </div>
+            </div>
           </div>
-          <div class=" col-span-1">
-            <img src="Images/3.png" alt="">
+
+          <!-- Images2 -->
+          <div class="relative lg:h-auto h-60">
+            <img class="h-full w-full object-cover" src="Images/3.png" alt="">
+            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-black/30 w-full h-full flex items-center pt-6 pl-6 pr-8 pb-8 lg:px-10 lg:pt-11 rounded-2xl">
+              <div>
+                <h3 class="text-white font-extrabold lg:text-2xl text-xl">Teenager Program</h3>
+              <p class="text-white text-sm lg:text-base py-3 lg:py-4">
+                Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                <button class="btn border-none text-white font-bold text-lg lg:text-xl bg-[#FF4240] h-10">Register Now!</button>
+              </div>
+            </div>
           </div>
-          <div class=" col-span-2">
-            <img src="Images/4.png" alt="">
+
+          <!-- images3 -->
+          <div class="relative lg:h-auto h-60 lg:col-span-2">
+            <img class="h-full w-full object-cover" src="Images/4.png" alt="">
+            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-black/30 w-full h-full flex items-end pt-6 pl-6 pr-8 pb-8 lg:px-10 lg:pb-12 rounded-2xl">
+              <div>
+                <h3 class="text-white font-extrabold lg:text-2xl text-xl">Junior Program</h3>
+              <p class="text-white text-sm lg:text-base py-3 lg:py-4">
+                Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br>
+                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc  <br>morbi nulla. Tortor congue sed et in.</p>
+                <button class="btn border-none text-white font-bold text-lg lg:text-xl bg-[#FF4240] h-10">Register Now!</button>
+              </div>
+            </div>
           </div>
+
         </div>
 
       </section>
