@@ -66,13 +66,65 @@
 
   <body class="font-manrope">
     <!-- Header Starts Here -->
-    <header class="container mx-auto lg:px-24 px-8">
+    <header class="container mx-auto lg:px-24 px-8 lg:mb-24">
       <!-- Navbar Starts Here -->
-      <nav class=""></nav>
+      <nav>
+        <div class="flex justify-between items-center py-12 ">
+
+          <div class="">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="text-info-content font-medium menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              >
+                <li><a class="">Home</a></li>
+                <li><a>About</a></li>
+              <li><a>Pages</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact</a></li>
+              </ul>
+            </div>
+            <a class=" font-extrabold text-2xl lg:text-4xl">Hockey’s</a>
+          </div>
+
+          <!-- Nav menu  -->
+          <div class="navbar-center hidden lg:flex">
+            <ul class=" text-[#424247] text-info-content menu menu-horizontal px-1 font-bold">
+              <li class="" ><a class="text-[#FF4240] ">Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Pages</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Nav Btn -->
+          <div class=" flex items-center justify-between gap-6">
+            <i class="fa-solid fa-magnifying-glass text-[#424247] lg:flex hidden "></i>
+            <button class=" btn border-none text-white font-bold text-lg lg:text-xl bg-[#FF4240]">Get Ticket</button>
+          </div>
+        </div>
+      </nav>
       <!-- Navbar Ends Here -->
 
       <!-- Banner Section Starts Here -->
-      <div class="lg:my-24 relative">
+      <div class="relative">
         <div class="carousel w-full">
           <!-- Slider 1 -->
           <div id="slide1" class="carousel-item relative w-full">
